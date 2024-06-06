@@ -1,0 +1,220 @@
+{
+    "menu": [
+        {
+          "id": 1,
+          "title": "Big Mac",
+          "price": 5.99,
+          "description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.",
+          "category": "burgers",
+          "image": "images/burgers/burger-1.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "Quarter Pounder with Cheese",
+          "price": 6.49,
+          "description": "Quarter pound of 100% beef topped with cheese, pickles, onions, ketchup, and mustard.",
+          "category": "burgers",
+          "image": "images/burgers/burger-2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "McDouble",
+          "price": 2.99,
+          "description": "Two beef patties, cheese, pickles, onions, ketchup, and mustard.",
+          "category": "burgers",
+          "image": "images/burgers/burger-3.jpeg"
+        },
+        {
+          "id": 4,
+          "title": "Cheeseburger",
+          "price": 1.99,
+          "description": "Beef patty, cheese, pickles, onions, ketchup, and mustard.",
+          "category": "burgers",
+          "image": "images/burgers/burger-4.jpeg"
+        },
+        {
+          "id": 5,
+          "title": "Double Cheeseburger",
+          "price": 3.49,
+          "description": "Two beef patties, two slices of cheese, pickles, onions, ketchup, and mustard.",
+          "category": "burgers",
+          "image": "images/burgers/burger-5.jpeg"
+        },
+        {
+          "id": 6,
+          "title": "McChicken",
+          "price": 4.49,
+          "description": "Crispy chicken patty, lettuce, and mayo on a toasted bun.",
+          "category": "burgers",
+          "image": "images/burgers/burger-6.jpeg"
+        },
+        {
+          "id": 7,
+          "title": "Filet-O-Fish",
+          "price": 4.99,
+          "description": "Fish filet, tartar sauce, and American cheese on a steamed bun.",
+          "category": "burgers",
+          "image": "images/burgers/burger-7.jpeg"
+        },
+        {
+          "id": 8,
+          "title": "Spicy McChicken",
+          "price": 4.99,
+          "description": "Spicy crispy chicken patty, lettuce, and mayo on a toasted bun.",
+          "category": "burgers",
+          "image": "images/burgers/burger-8.jpeg"
+        },
+        {
+          "id": 9,
+          "title": "French Fries",
+          "price": 2.49,
+          "description": "Golden and crispy French fries.",
+          "category": "sides",
+          "image": "images/sides/side-5.jpeg"
+        },
+        {
+          "id": 10,
+          "title": "Apple Slices",
+          "price": 1.29,
+          "description": "Fresh apple slices in a convenient package.",
+          "category": "sides",
+          "image": "images/sides/side-2.jpeg"
+        },
+        {
+          "id": 11,
+          "title": "Chicken McNuggets",
+          "price": 4.99,
+          "description": "Tender and juicy chicken nuggets served with your choice of dipping sauce.",
+          "category": "sides",
+          "image": "images/sides/side-3.jpeg"
+        },
+        {
+          "id": 12,
+          "title": "Mozzarella Sticks",
+          "price": 3.49,
+          "description": "Fried mozzarella sticks served with marinara sauce.",
+          "category": "sides",
+          "image": "images/sides/side-4.jpeg"
+        },
+        {
+          "id": 13,
+          "title": "Side Salad",
+          "price": 2.99,
+          "description": "Fresh mixed greens with tomatoes and cucumbers.",
+          "category": "sides",
+          "image": "images/sides/side-5.jpeg"
+        },
+        {
+          "id": 14,
+          "title": "Fruit & Yogurt Parfait",
+          "price": 1.99,
+          "description": "Low-fat vanilla yogurt with fresh fruit and granola.",
+          "category": "sides",
+          "image": "images/sides/side-6.jpeg"
+        },
+        {
+          "id": 15,
+          "title": "Hash Browns",
+          "price": 1.59,
+          "description": "Crispy and golden hash browns.",
+          "category": "sides",
+          "image": "images/sides/side-7.jpeg"
+        },
+        {
+          "id": 16,
+          "title": "McFlurry",
+          "price": 3.49,
+          "description": "Soft serve ice cream blended with your choice of toppings.",
+          "category": "desserts",
+          "image": "images/desserts/dessert-1.jpeg"
+        },
+        {
+          "id": 17,
+          "title": "Apple Pie",
+          "price": 1.49,
+          "description": "Warm apple pie with a flaky crust.",
+          "category": "desserts",
+          "image": "images/desserts/dessert-2.jpeg"
+        },
+        {
+          "id": 18,
+          "title": "Hot Fudge Sundae",
+          "price": 2.49,
+          "description": "Vanilla ice cream topped with hot fudge and whipped cream.",
+          "category": "desserts",
+          "image": "images/desserts/dessert-3.jpeg"
+        },
+        {
+          "id": 19,
+          "title": "Strawberry Sundae",
+          "price": 2.49,
+          "description": "Vanilla ice cream topped with strawberry sauce and whipped cream.",
+          "category": "desserts",
+          "image": "images/desserts/dessert-4.jpeg"
+        },
+        {
+          "id": 20,
+          "title": "Chocolate Chip Cookie",
+          "price": 0.99,
+          "description": "Warm and chewy chocolate chip cookie.",
+          "category": "desserts",
+          "image": "images/desserts/dessert-5.jpeg"
+        },
+        {
+          "id": 21,
+          "title": "Oreo McFlurry",
+          "price": 3.49,
+          "description": "Soft serve ice cream blended with Oreo cookie pieces.",
+          "category": "desserts",
+          "image": "images/desserts/dessert-6.jpeg"
+        },
+        {
+          "id": 22,
+          "title": "Coca-Cola",
+          "price": 1.99,
+          "description": "Chilled can of classic Coca-Cola.",
+          "category": "drinks",
+          "image": "images/drinks/Drinks-1.jpeg"
+        },
+        {
+          "id": 23,
+          "title": "Sprite",
+          "price": 1.99,
+          "description": "Chilled can of refreshing Sprite.",
+          "category": "drinks",
+          "image": "images/drinks/Drinks-2.jpeg"
+        },
+        {
+          "id": 24,
+          "title": "Iced Tea",
+          "price": 2.49,
+          "description": "Freshly brewed iced tea served with a lemon wedge.",
+          "category": "drinks",
+          "image": "images/drinks/Drinks-3.jpeg"
+        },
+        {
+          "id": 25,
+          "title": "Lemonade",
+          "price": 2.49,
+          "description": "Classic lemonade made with fresh lemons.",
+          "category": "drinks",
+          "image": "images/drinks/Drinks-4.jpeg"
+        },
+        {
+          "id": 26,
+          "title": "Hot Coffee",
+          "price": 1.99,
+          "description": "Hot brewed coffee served with cream and sugar.",
+          "category": "drinks",
+          "image": "images/drinks/Drinks-5.jpeg"
+        },
+        {
+          "id": 27,
+          "title": "Chocolate Milkshake",
+          "price": 3.99,
+          "description": "Thick chocolate milkshake topped with whipped cream.",
+          "category": "drinks",
+          "image": "images/drinks/Drinks-6.jpeg"
+        }
+      ]  
+}
