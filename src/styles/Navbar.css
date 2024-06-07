@@ -1,4 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+}
+
+.navbar .rightSide{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a{
+    margin: 40px;
+    text-decoration: none;
+    font-size: large;
+    color: black;
 }

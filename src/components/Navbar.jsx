@@ -8,11 +8,11 @@ function Navbar() {
             <div  className='leftSide'>
                 <h1>Lägg till logotyp</h1>
             </div>
-            <div  className='RightSide'>
-                <Link to="/">Home</Link>
+            <div  className='rightSide'>
+                {/* <Link to="/">Home</Link> */}
                 <Link to="/About">About</Link>
                 <Link to="/Contact">Contact</Link>
-                <Link to="/Login">Login</Link>
+                <Link to="/Login" id='loginBtn'>Login</Link>
             </div>
 
         </div>

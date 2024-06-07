@@ -6,7 +6,7 @@
           "price": 5.99,
           "description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.",
           "category": "burgers",
-          "image": "images/burgers/burger-1.jpeg"
+          "image": "/images/burgers/burger-1.jpeg"
         },
         {
           "id": 2,
@@ -14,7 +14,7 @@
           "price": 6.49,
           "description": "Quarter pound of 100% beef topped with cheese, pickles, onions, ketchup, and mustard.",
           "category": "burgers",
-          "image": "images/burgers/burger-2.jpeg"
+          "image": "/images/burgers/burger-3.jpeg"
         },
         {
           "id": 3,
@@ -38,7 +38,7 @@
           "price": 3.49,
           "description": "Two beef patties, two slices of cheese, pickles, onions, ketchup, and mustard.",
           "category": "burgers",
-          "image": "images/burgers/burger-5.jpeg"
+          "image": "/images/burgers/burger-5.jpeg"
         },
         {
           "id": 6,
@@ -46,7 +46,7 @@
           "price": 4.49,
           "description": "Crispy chicken patty, lettuce, and mayo on a toasted bun.",
           "category": "burgers",
-          "image": "images/burgers/burger-6.jpeg"
+          "image": "/images/burgers/burger-6.jpeg"
         },
         {
           "id": 7,
@@ -70,7 +70,7 @@
           "price": 2.49,
           "description": "Golden and crispy French fries.",
           "category": "sides",
-          "image": "images/sides/side-5.jpeg"
+          "image": "images/sides/side-1.jpeg"
         },
         {
           "id": 10,
