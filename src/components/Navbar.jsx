@@ -1,12 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 import '../styles/Navbar.css'
+import logoBlack from '../images/logo-black.png'
 
 function Navbar() {
     return (
         <div className='navbar'>
             <div  className='leftSide'>
-                <h1>Lägg till logotyp</h1>
+                <img src={logoBlack} alt="" />
             </div>
             <div  className='rightSide'>
                 {/* <Link to="/">Home</Link> */}

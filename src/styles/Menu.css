@@ -4,42 +4,5 @@
     justify-content: space-around;
 } */
 
-.menuItem p {
-  color: black;
-}
-.menuItem h2 {
-  color: black;
-}
-.menu {
-  padding: 20px;
-}
-.menuTitle {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.menuList {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.menuItem {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
-  width: 250px;
-}
-.menuItemImage {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-.menuItem h2 {
-  font-size: 1.5em;
-  margin: 10px 0;
-}
-.menuItem p {
-  margin: 5px 0;
-}
+/*Layout needs to fixed. not quite satisfied*/
+
