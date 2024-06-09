@@ -5,7 +5,7 @@ function Card ({menu}) {
     return ( 
         <>
       <div className="menu">
-        <h1 className="menuTitle">our menu</h1>
+        <h1 className="menuTitle">Our menu</h1>
         <div className="menuList">
           {menu.map((item) => (
             <div key={item.id} className="menuItem">
@@ -14,10 +14,14 @@ function Card ({menu}) {
                 alt={item.title}
                 className="menuItemImage"
               />
-              <h2>{item.title}</h2>
+              <p><h2>{item.title}</h2></p>
               <p>{item.description}</p>
               <p>${item.price}</p>
-              <button> click me</button>
+              <div className='button-container-cart'>
+                <div className='leftSide'>-</div>
+                <div className='middleSide'>0</div>
+                <div className='rightSide'>+</div>
+              </div>
             </div>
           ))}
         </div>

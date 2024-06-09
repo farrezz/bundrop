@@ -2,17 +2,28 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 50px;
-  height: 100px;
-
-  width: 70%;
+  justify-content:end;
+  height: 80px;
+  width: 96%;
 }
 
 .container button {
-  width: 70px;
-  height: 40px;
+  width: 100px;
+  height: 20px;
+  font-weight: bold;
   background-color: transparent;
-  border-radius: 20px;
-  border: 0.5px solid;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid;
   margin: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: black;
+    font-weight: bold;
+    transition: 0.3s;
 }
