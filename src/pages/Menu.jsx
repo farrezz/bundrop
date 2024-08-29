@@ -8,7 +8,11 @@ function Menu() {
   const [menu, setMenu] = useState([]);
   const [filteredMenu, setFilteredMenu] = useState([]);
   const menuItems = [...new Set(menu.map((item) => item.category))];
+  //Todo: Add to cart
+  //Cart function 
+  const [cart, setCart] = useState([]);
 
+  //Funktion som filterar dem olika matkatekorier  
   const filterItems = (category) => {
     if (category === "All") {
       setFilteredMenu(menu);
@@ -17,11 +21,12 @@ function Menu() {
       setFilteredMenu(newMenu);
     }
   };
-
+//Renderar hela menyn
   useEffect(() => {
     fetchData();
   }, []);
 
+  //Funktion som hämtar data från databasen 
   function fetchData() {
     fetch("http://localhost:3001/menu")
       .then((res) => res.json())
