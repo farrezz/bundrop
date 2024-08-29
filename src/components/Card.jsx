@@ -18,9 +18,7 @@ function Card ({menu}) {
               <p>{item.description}</p>
               <p>${item.price}</p>
               <div className='button-container-cart'>
-                <div className='leftSide'>-</div>
-                <div className='middleSide'>0</div>
-                <div className='rightSide'>+</div>
+                <div className='add-to-cart-btn'>Add to cart</div>
               </div>
             </div>
           ))}
