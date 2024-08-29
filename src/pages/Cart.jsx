@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 import "../styles/Cart.css";
+import CartComp from "../components/CartComponent";
 
 function Cart() {
-    return (
-        <>
-        <div className='cart-container'>
-          <h1>Page under Construction</h1>
-        </div>
-  
-        </>
-      );
+  return (
+    <>
+      <CartComp />
+    </>
+  );
 }
 
 export default Cart;
