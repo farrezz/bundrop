@@ -1,0 +1,47 @@
+.contact-background{
+    background-color: black;
+    height: 100vh;
+
+}
+
+
+.contact-container{
+    margin: 0rem 5rem 0rem 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    gap: 1rem;
+    background-color: black;
+}
+
+.opening-hours h5{
+    margin-bottom: 0rem;
+    line-height: 0;
+
+}
+
+.opening-hours{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+h1{
+    font-size: 6rem;
+}
+.contact-information-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+h5{
+    font-size: 1rem;
+    color: grey;
+}
+span{
+    color: white;
+}
+
