@@ -58,3 +58,13 @@
 
 }
 
+.empty-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red; 
+    font-weight: bold;
+    font-size: 1rem;
+    height: 45rem;
+}
+

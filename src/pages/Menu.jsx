@@ -7,10 +7,12 @@ import FilterButton from "../components/FilterButton";
 function Menu() {
   const [menu, setMenu] = useState([]);
   const [filteredMenu, setFilteredMenu] = useState([]);
+  
+  //skappar en array med alla kategorier
   const menuItems = [...new Set(menu.map((item) => item.category))];
   //Todo: Add to cart
   //Cart function 
-  const [cart, setCart] = useState([]);
+  // const [cart, setCart] = useState([]);
 
   //Funktion som filterar dem olika matkatekorier  
   const filterItems = (category) => {

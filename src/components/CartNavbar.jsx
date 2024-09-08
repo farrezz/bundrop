@@ -15,7 +15,7 @@ function CartNavbar() {
           </Link>
         </div>
         <div className="middleSide-cart">BD</div>
-        <div className="rightSide-cart"><Link to="/Menu">X</Link></div>
+        <Link to="/Menu"><div className="rightSide-cart">X</div></Link>
       </div>
     </>
   );

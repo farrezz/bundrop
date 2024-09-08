@@ -1,0 +1,123 @@
+
+.payment-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0px 0px 50rem;
+    color: black;
+    /* border: black 1px solid; */
+    font-weight: bold;
+}
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 100%;
+    font-weight: bold;
+    margin-right: 47rem;
+}
+
+.payment-title {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.payment-methods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10px;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+.payment-option {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-size: 10px;
+    height: 1rem;
+}
+
+.payment-option:hover {
+    background-color: black;
+    color: white;
+}
+
+.payment-option.selected {
+    background-color: black;
+    color: white;
+}
+
+.personalInformation-details {
+    display: Grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+.credit-card-details, .swish-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    height: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.paymentBtnContainer{
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    height: 1rem;
+    width: 28rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.paymentBtnContainer:hover {
+    background-color: #4CAF50;
+}
+
+
+.fillInformation-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
+
+  .payment-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
