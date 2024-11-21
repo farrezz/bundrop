@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bundrop/static/css/main.7b285b38.css",
+    "main.js": "/bundrop/static/js/main.d1b7eea1.js",
+    "static/js/453.60c02936.chunk.js": "/bundrop/static/js/453.60c02936.chunk.js",
+    "static/media/hero.png": "/bundrop/static/media/hero.8d91ebdf32d05cd4fe71.png",
+    "index.html": "/bundrop/index.html",
+    "main.7b285b38.css.map": "/bundrop/static/css/main.7b285b38.css.map",
+    "main.d1b7eea1.js.map": "/bundrop/static/js/main.d1b7eea1.js.map",
+    "453.60c02936.chunk.js.map": "/bundrop/static/js/453.60c02936.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b285b38.css",
+    "static/js/main.d1b7eea1.js"
+  ]
+}
