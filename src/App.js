@@ -5,6 +5,8 @@ import Menu from './pages/Menu';
 import Cart from './pages/Cart';
 import Payment from './pages/Payment';
 import Contact from './pages/Contact';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import Confirmation from './pages/Confirmation';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Payment" element={<Payment/>}/>
         <Route path="/Confirmation" element={<Confirmation/>}/>
+        <Route path="/Login" element={<Login/>}/>
+        <Route path="/Signup" element={<Signup/>}/>
       </Routes>
     </Router>
 

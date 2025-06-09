@@ -15,6 +15,7 @@ function Navbar() {
                 <Link to="/About">About</Link>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/Login" id='loginBtn'>Login</Link>
+                <Link to="/Signup">Signup</Link>
                 <Link to="/Cart"><img src={CartImg} alt="cart" />Cart</Link>
             </div>
 
